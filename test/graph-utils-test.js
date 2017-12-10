@@ -1,12 +1,12 @@
 const chai = require('chai');
 
 const test = require('./test-utils');
-const utils = require('../app/graph-utils');
+const utils = require('../module/graph-utils');
 
 const expect = chai.expect;
 const dataDriven = test.dataDriven;
 
-describe.only('Success Tests', function(){
+describe('Success Tests', function(){
 
 dataDriven([
         {

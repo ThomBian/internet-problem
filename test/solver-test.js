@@ -1,7 +1,7 @@
 const chai = require('chai');
 
 const test = require('./test-utils');
-const solve = require('../app/solver');
+const solve = require('../module/solver');
 
 const expect = chai.expect;
 const dataDriven = test.dataDriven;
