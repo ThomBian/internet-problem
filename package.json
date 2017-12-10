@@ -1,0 +1,24 @@
+{
+  "name": "internet-problem",
+  "version": "1.0.0",
+  "description": "Given a grah of computers, it resolves the computer that need an internet connection to minimize the number of computers without internet in the worst case",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThomBian/internet-problem.git"
+  },
+  "author": "Thomas Bianchini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThomBian/internet-problem/issues"
+  },
+  "homepage": "https://github.com/ThomBian/internet-problem#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "express": "^4.16.2",
+    "mocha": "^4.0.1"
+  }
+}
