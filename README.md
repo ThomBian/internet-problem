@@ -1,6 +1,6 @@
 # internet-problem
 
-Problem : given a network of computers (as a non circled non oriented graph), you can give only one computer access to an internet connection. That one can share this connection to all the computers connected in the graph. The solver has decide which computer is the best choice : minimizing the connection losses if any wire fall down. It should return the number of losses in the worst case and the chosen computer id. 
+Problem : given a network of computers (as a non circled non oriented graph), you can give only one computer access to an internet connection. That one can share this connection to all the computers connected in the graph. The solver has to decide which computer is the best choice : minimizing the connection losses if any wire fall down. It should return the number of losses in the worst case and the chosen computer id. 
 
 # solution
 ## graph representation
@@ -37,7 +37,7 @@ eval(graph[1]) // = [0, 4, 8, 2] => the node with the id 1 is connected to the n
 ```
 
 ## use it
-* prerequisite : you need node up on your environnement
+* prerequisite : you need Node.js up on your environnement and npm installed so
 * git clone the project
 * ```cd internet-problem```
 * ```npm install```
